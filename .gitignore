@@ -1,0 +1,134 @@
+# Project-specific files to ignore
+TODO/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Experiment results and outputs
+results/
+!results/.gitkeep
+outputs/
+logs/
+wandb/
+*.log
+*.out
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.h5
+*.ckpt
+
+# Data files (excluding small config data)
+*.json
+*.jsonl
+!configs/**/*.json
+!configs/**/*.yaml
+
+# Plots and figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.eps
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# System files
+*.swp
+*.swo
+*~
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Debug files
+debug_*.py
+test_*.py
+scratch_*.py
