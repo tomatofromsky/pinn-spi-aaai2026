@@ -81,3 +81,17 @@ PPO notes
 **Reproducibility**
 - Commit both `pyproject.toml` and `uv.lock` for consistent resolution across machines.
 - In CI, prefer `uv sync --frozen`.
+
+
+**License**
+MIT License - see LICENSE file for details.
+
+**Citation**
+If you use this code in your research, please cite:
+
+@software{pinn_spi,
+  title = {Physics-Informed Approach for Exploratory Hamilton–Jacobi–Bellman Equations via Policy Iterations},
+  author = {Kim, Yeongjong and Kim, Yeoneung and Kim, Minseok and Cho, Namkyeong},
+  year = {2025},
+  url = {[https://github.com/...](https://github.com/tomatofromsky/pinn-spi-aaai2026)}
+}
