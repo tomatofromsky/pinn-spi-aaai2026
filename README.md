@@ -91,8 +91,8 @@ If you use this code in your research, please cite:
 ```
 @software{pinn_spi,
   title = {Physics-Informed Approach for Exploratory Hamilton–Jacobi–Bellman Equations via Policy Iterations},
-  author = {Kim, Yeongjong and Kim, Yeoneung and Kim, Minseok and Cho, Namkyeong},
+  author = {Yeongjong Kim, Namkyeong Cho, Minseok Kim, Yeoneung Kim},
   year = {2025},
-  url = {[https://github.com/...](https://github.com/tomatofromsky/pinn-spi-aaai2026)}
+  url = {https://github.com/tomatofromsky/pinn-spi-aaai2026}
 }
 ```
